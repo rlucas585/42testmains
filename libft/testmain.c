@@ -6,7 +6,7 @@
 /*   By: rlucas <marvin@codam.nl>                     +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/10/31 10:49:02 by rlucas        #+#    #+#                 */
-/*   Updated: 2019/11/21 09:12:58 by rlucas        ########   odam.nl         */
+/*   Updated: 2019/12/14 17:26:12 by rlucas        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -313,7 +313,7 @@ void		test_isalpha(void)
 	c = 0;
 	printf("Isalpha result: %d\nMy result: %d\n\n", isalpha(c), ft_isalpha(c));
 	c = '\n';
-	printf("Isalpha result: %c\nMy result: %c\n\n", isalpha(c), ft_isalpha(c));
+	printf("Isalpha result: %d\nMy result: %d\n\n", isalpha(c), ft_isalpha(c));
 }
 
 void		test_isdigit(void)
@@ -653,7 +653,7 @@ char		func_for_strmapi(unsigned int n, char c)
 
 void		test_strmapi(void)
 {
-	char		str1[] = "String to test";
+	char		str1[] = "String to";
 	char		*str2;
 
 	printf("\n\nStrmapi Test\n-----------------------\n");
